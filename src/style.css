@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#header{
+    padding-top: 8px;
+    position: relative;
+    background-color: #ffde73;
+}
+.btn1, .btn2, .btn3{
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: khaki;
+    border-radius: 3px;
+    border-bottom: none;
+    border-color: black;
+}
+.btn1:hover, .btn2:hover, .btn3:hover {
+    background-color: darkkhaki;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#cnt{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.home{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 100px;
+    width: 800px;
+    background-color: khaki;
+    border-radius: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 60px;
+    width: 800px;
+    background-color: khaki;
+    border-radius: 10px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 60px;
+    width: 800px;
+    background-color: khaki;
+    border-radius: 10px;
+    
+}
+.para1{
+    padding-left: 275px;
+    padding-right: 250px;
+    
+}
+.honeyBee1Image{
+    padding: 5px;
+}
+.list{
+    list-style: none;
+}
+.list> li{
+    margin-bottom: 10px;
+}
+.button-clicked{
+    background-color:  darkgoldenrod;
+}
+
+.listOfHelpers{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: khaki;
+    justify-content: space-evenly;
+
+}
+.beveragesContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+    gap: 50px;
+    border: 4px double darkolivegreen;
+    border-radius: 5px;
+    padding: 20px;
+}
+.honeyTea{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px dotted darkgoldenrod;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 20px;
+}
+.HoneyTeaPriceAndImage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+.textContentHoneyTea{
+    margin-top: 100px;
+}
+.bearyTea{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px dotted darkgoldenrod;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 20px;
+}
+.bearyTeaPriceAndImage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+.textAreaBearyTea{
+    margin-top: 100px;
+}
+.sidesContent, .mainDishesContent{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: -45px;
+    border: 4px double darkolivegreen;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+}
+.toastandjam, .freshFruit, .panCakes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px dotted darkgoldenrod;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 20px;
+}
+.priceToastAndJam,.pricefreshFruit,.pricePanCakes{
+    margin-top: 100px;
+}
+.priceAndImageToastAndJam,.priceAndImagefreshFruit,.priceAndImagePanCakes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+.branchOfficer, .branchManager{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: bisque;
+    text-align: center;
+}
